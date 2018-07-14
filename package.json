@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Yuuki Rafflesia",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^11.3.2",
     "discord.js-commando": "^0.10.0",
-    "dotenv": "^6.0.0"
+    "dotenv": "^6.0.0",
+    "jimp": "^0.2.28"
   }
 }

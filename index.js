@@ -12,7 +12,8 @@ const path = require('path');
 
 client.registry
     .registerGroups([
-        ['kumiko-interact', 'Interact with Kumiko!']
+        ['kumiko-interact', 'Interact with Kumiko!'],
+        ['image', 'Mess around with images!']
     ])
     .registerDefaults()
     .registerCommandsIn(path.join(__dirname, 'commands'));
